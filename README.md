@@ -7,20 +7,19 @@
 [![Architecture: Self--Evolving](https://img.shields.io/badge/Architecture-Self--Evolving-green.svg)](#-system-architecture)
 [![Version](https://img.shields.io/badge/Version-3.0.0-blue.svg)](https://github.com/samshuvam)
 
-> 🎉 **OFFICIALLY ACCEPTED AT IEEE ICAII 2026**  
+> **OFFICIALLY ACCEPTED AT IEEE ICAII 2026**  
 > **Paper Title**: *SELF EVOLVING COGNITIVE ARCHITECTURE AND BIO MEMORY MODEL*  
 > **Paper ID**: `CA0005-A`  
 > **Conference**: **2026 IEEE 4th International Conference on Artificial Intelligence Innovation (ICAII 2026)**  
-> **Dates & Location**: October 16–18, 2026 | Beijing, China (Supported by Beijing Union University)  
 > **Authors**: **Shuvam Singh**, Ratan Kumar Gupta, Anurag Gupta, Pratik Roy
 
 ---
 
 <div align="center">
 
-### 📜 Official IEEE ICAII 2026 Notification of Acceptance
+### Official IEEE ICAII 2026 Notification of Acceptance
 
-<img src="images/icaii_2026_acceptance.png" alt="IEEE ICAII 2026 Acceptance Notification" width="750" />
+<img src="images/icaii_2026_registration.png" alt="IEEE ICAII 2026 Acceptance Notification" width="750" />
 
 </div>
 
@@ -32,7 +31,7 @@ LP-LLM integrates bio-inspired cognitive memory mechanisms such as **Ebbinghaus 
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
 - **Tiered Cognitive Memory Engine**:
   - Ephemeral, Working, and Long-Term Memory tiers with automated consolidation.
@@ -60,7 +59,7 @@ LP-LLM integrates bio-inspired cognitive memory mechanisms such as **Ebbinghaus 
 
 ---
 
-## 📐 System Architecture
+## System Architecture
 
 ![Architecture Flow](images/architecture_flow.png)
 
@@ -100,7 +99,7 @@ c:\Users\elite\Desktop\CAP-pr\
 
 ---
 
-## 📊 Research Benchmarks & Ablation Studies
+## Research Benchmarks & Ablation Studies
 
 LP-LLM has been empirically evaluated across 8 core cognitive metrics:
 
@@ -123,7 +122,7 @@ LP-LLM has been empirically evaluated across 8 core cognitive metrics:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Prerequisites & Installation
 
@@ -169,7 +168,7 @@ Visit `http://localhost:8000/docs` to view the interactive OpenAPI documentation
 
 ---
 
-## 🏛️ IEEE ICAII 2026 Conference & Registration Details
+## IEEE ICAII 2026 Conference & Registration Details
 
 This research project and cognitive model has been officially accepted for presentation at the **2026 IEEE 4th International Conference on Artificial Intelligence Innovation (ICAII 2026)**.
 
@@ -179,45 +178,15 @@ This research project and cognitive model has been officially accepted for prese
 | **Paper ID** | `CA0005-A` |
 | **Authors** | **Shuvam Singh**, Ratan Kumar Gupta, Anurag Gupta, Pratik Roy |
 | **Conference** | 2026 IEEE 4th International Conference on Artificial Intelligence Innovation (ICAII 2026) |
-| **Presentation Type**| Oral Presentation |
-| **Conference Dates** | October 16 – October 18, 2026 |
 | **Venue** | Beijing, China (Supported by Beijing Union University) |
 | **Official Website** | [https://www.icaii.org/](https://www.icaii.org/) |
-| **Registration Portal**| [https://www.zmeeting.org/register/icaii2026](https://www.zmeeting.org/register/icaii2026) |
-| **Conference Email** | `icaii_conf@outlook.com` |
 
 <div align="center">
 
-### 📋 Conference Registration Form Overview
-
-<img src="images/icaii_2026_registration.png" alt="IEEE ICAII 2026 Registration Portal Preview" width="750" />
-
-</div>
-
 ---
 
-## 🔒 Author Attribution & Watermarking
-
-This project is authored by **Shuvam** (`samshuvam`). 
-
-The repository incorporates multi-tier identity verification and anti-tamper watermarks across documentation, package metadata, and runtime integrity modules (`lp_llm/identity.py`). 
-
-To verify system identity at runtime:
-
-```python
-import lp_llm
-
-print(lp_llm.__author__)
-# Output: Shuvam (https://github.com/samshuvam)
-
-print(lp_llm.verify_system_integrity())
-# Validates cryptographic author signature on startup
-```
-
----
-
-## 📄 License
+## License
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
-Developed with ❤️ by **[Shuvam](https://github.com/samshuvam)**.
+Developed by **[Shuvam](https://github.com/samshuvam)**.
