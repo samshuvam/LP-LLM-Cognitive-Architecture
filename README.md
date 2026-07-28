@@ -11,7 +11,36 @@
 > **Paper Title**: *SELF EVOLVING COGNITIVE ARCHITECTURE AND BIO MEMORY MODEL*  
 > **Paper ID**: `CA0005-A`  
 > **Conference**: **2026 IEEE 4th International Conference on Artificial Intelligence Innovation (ICAII 2026)**  
-> **Authors**: **Shuvam Singh**, Ratan Kumar Gupta, Anurag Gupta, Pratik Roy
+## 🔒 Author Attribution & Watermarking
+
+This project is authored by **Shuvam** (`samshuvam`). 
+
+The repository incorporates multi-tier identity verification and anti-tamper watermarks across documentation, package metadata, and runtime integrity modules (`lp_llm/identity.py`). 
+
+To verify system identity at runtime:
+
+```python
+import lp_llm
+
+print(lp_llm.__author__)
+# Output: Shuvam (https://github.com/samshuvam)
+
+print(lp_llm.verify_system_integrity())
+# Validates cryptographic author signature on startup
+```
+
+---
+
+## 👥 Project Contributors
+
+Thanks to the following co-authors and contributors:
+
+- [<img src="https://github.com/samshuvam.png?size=40" width="30" height="30" valign="middle" /> **Shuvam Singh**](https://github.com/samshuvam) — Lead Author & Core Architect
+- [<img src="https://github.com/ratan221.png?size=40" width="30" height="30" valign="middle" /> **Ratan Kumar Gupta**](https://github.com/ratan221) — Co-Author & Research Contributor
+
+---
+
+## 📄 License (docs: Add ratan221 as co-author and project contributor)
 
 ---
 
@@ -176,7 +205,7 @@ This research project and cognitive model has been officially accepted for prese
 | :--- | :--- |
 | **Paper Title** | `SELF EVOLVING COGNITIVE ARCHITECTURE AND BIO MEMORY MODEL` |
 | **Paper ID** | `CA0005-A` |
-| **Authors** | **Shuvam Singh**, Ratan Kumar Gupta, Anurag Gupta, Pratik Roy |
+| **Authors** | **Shuvam Singh**, [Ratan Kumar Gupta](https://github.com/ratan221), Anurag Gupta, Pratik Roy |
 | **Conference** | 2026 IEEE 4th International Conference on Artificial Intelligence Innovation (ICAII 2026) |
 | **Venue** | Beijing, China (Supported by Beijing Union University) |
 | **Official Website** | [https://www.icaii.org/](https://www.icaii.org/) |
@@ -185,7 +214,36 @@ This research project and cognitive model has been officially accepted for prese
 
 ---
 
-## License
+## 🔒 Author Attribution & Watermarking
+
+This project is authored by **Shuvam** (`samshuvam`). 
+
+The repository incorporates multi-tier identity verification and anti-tamper watermarks across documentation, package metadata, and runtime integrity modules (`lp_llm/identity.py`). 
+
+To verify system identity at runtime:
+
+```python
+import lp_llm
+
+print(lp_llm.__author__)
+# Output: Shuvam (https://github.com/samshuvam)
+
+print(lp_llm.verify_system_integrity())
+# Validates cryptographic author signature on startup
+```
+
+---
+
+## 👥 Project Contributors
+
+Thanks to the following co-authors and contributors:
+
+- [<img src="https://github.com/samshuvam.png?size=40" width="30" height="30" valign="middle" /> **Shuvam Singh**](https://github.com/samshuvam) — Lead Author & Core Architect
+- [<img src="https://github.com/ratan221.png?size=40" width="30" height="30" valign="middle" /> **Ratan Kumar Gupta**](https://github.com/ratan221) — Co-Author & Research Contributor
+
+---
+
+## 📄 License (docs: Add ratan221 as co-author and project contributor)
 
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
