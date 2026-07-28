@@ -1,0 +1,39 @@
+# Environments
+venv/
+env/
+ENV/
+.env
+.env.local
+
+# Python Caches & Compiled Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Data Caches & Vector Storage
+*.sqlite3
+lp_llm/semantic_memory/
+lp_llm/validation_cache/
+lp_llm/learning_data/
+lp_llm/research_metrics/
+lp_llm/user_profiles/
+lp_llm/logs/
+lp_llm/exports/
+lp_llm/model/
+*.log
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temporary export files & system logs
+*.json
+!pyproject.toml
+
+# Build & Package artifacts
+build/
+dist/
+*.egg-info/

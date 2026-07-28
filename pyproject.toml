@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lp-llm-cognitive-architecture"
+version = "3.0.0"
+description = "Self-Evolving Cognitive Architecture for Lifelong Personalized LLMs with Ebbinghaus Memory, RIF Suppression, Knowledge Graph & Continual Learning"
+readme = "README.md"
+authors = [
+    { name = "Shuvam", email = "samshuvam@github.com" }
+]
+license = { text = "MIT" }
+keywords = [
+    "llm",
+    "cognitive-architecture",
+    "personalized-ai",
+    "continual-learning",
+    "ebbinghaus-memory",
+    "knowledge-graph",
+    "fastapi",
+    "qdrant",
+    "lora"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = [
+    "fastapi>=0.95.0",
+    "uvicorn>=0.22.0",
+    "pydantic>=2.0.0",
+    "sentence-transformers>=2.2.0",
+    "numpy>=1.24.0",
+    "torch>=2.0.0",
+    "google-api-python-client>=2.80.0",
+    "httpx>=0.24.0",
+    "matplotlib>=3.7.0",
+    "networkx>=3.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/samshuvam/LP-LLM-Cognitive-Architecture"
+Repository = "https://github.com/samshuvam/LP-LLM-Cognitive-Architecture.git"
+Documentation = "https://github.com/samshuvam/LP-LLM-Cognitive-Architecture#readme"
+"Bug Tracker" = "https://github.com/samshuvam/LP-LLM-Cognitive-Architecture/issues"
+Author = "https://github.com/samshuvam"
